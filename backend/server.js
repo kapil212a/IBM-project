@@ -17,9 +17,9 @@ const db = mysql.createConnection({
 
 db.connect(err => {
   if (err) {
-    console.error("❌ MySQL connection failed:", err);
+    console.error(" MySQL connection failed:", err);
   } else {
-    console.log("✅ Connected to MySQL database!");
+    console.log("Connected to MySQL database!");
   }
 });
 
@@ -40,7 +40,7 @@ app.get("/result/:roll", (req, res) => {
   });
 });
 
-app.listen(5000, () => console.log("🚀 Server running on port 5000"));
+app.listen(5000, () => console.log("Server running on port 5000"));
 
 
 
