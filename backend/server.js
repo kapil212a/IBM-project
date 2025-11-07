@@ -10,7 +10,7 @@ app.use(express.json());
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "Aman74086@", // Replace with your actual MySQL Workbench password
+  password: "Aman74086@",
   database: "student_result_db"
 });
 
